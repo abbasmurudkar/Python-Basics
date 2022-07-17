@@ -1,0 +1,1 @@
+Hi this Is an example of opening and reading file in python

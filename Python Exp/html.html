@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form method="post" action="form.php">
+        <label for="Name">First Name:</label>
+        <input type="text" id="Name" name="first_name" /> <br>
+        <label for="Name">Last Name:</label>
+        <input type="text" id="Name" name="last_name"/><br>
+        <textarea cols="50" rows="5" name="desc"> ENTER DESCRIPTION HERE... </textarea><br>
+        <input type="radio" name="gender" id="male" value="male"/>
+        <label for="male">MALE</label>
+        <input type="radio" name="gender" id="other" value="other"/>
+        <label for="other">OTHER</label>
+        <input type="radio" name="gender" id="female" value="female"/>
+        <input type="hidden" name="gender" id="female" value="female"/>
+
+        <label for="female">FEMALE</label><br>
+        <select name="options">
+            <option value="CHECK DROP" selected>MATHS</option>
+            <option value="physics">PHYSICS</option>
+        </select><br>
+        <input type="button" id="btn" name="submit_btn" value="submit"/>
+
+
+
+    </form>
+
+</body>
+</html>

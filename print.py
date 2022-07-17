@@ -1,0 +1,1 @@
+print("Pride educare")
