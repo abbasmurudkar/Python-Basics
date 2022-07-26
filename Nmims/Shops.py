@@ -1,4 +1,4 @@
-item= str(input("Enter the item name p-pants,s-shorts,t- shirts:- "))
+item= str(input("Enter the item name p-pants,s-shorts,t- shirts:-"))
 amount = float(input("Enter the amount for item: "))
 if(item == "p"):
     print("YOU HAVE SELECTED PANTS")
