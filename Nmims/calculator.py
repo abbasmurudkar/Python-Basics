@@ -1,4 +1,4 @@
-import math
+
 num1 = float(input("Enter the first number: "))
 exp = str(input("Enter the expression to be performed: "))
 num2 = float(input("Enter the second number: "))
@@ -14,17 +14,9 @@ elif(exp == "*"):
 elif(exp == "/"):
     div = num1 / num2
     print("Division: ", div)
-elif(exp == "floor"):
-    floor1 = math.floor(num1)
-    floor2 = math.floor(num2)
-    print("Floor: ",floor1,floor2)
-elif(exp == "tan"):    #also we can use sin,tan,sqrt
-    tan1 = math.tan(num1)
-    tan2 = math.tan(num2)
-    print("Tan ",tan1) 
 elif(exp == "sqrt"):
-    sqrt1 = math.sqrt(num1)
-    sqrt2 = math.sqrt(num2)
+    sqrt1 = num1 * num1
+    sqrt2 = num2 * num2
     print("Square Root: ", sqrt1,sqrt2)
 else:
     print("The expression is wrong")
